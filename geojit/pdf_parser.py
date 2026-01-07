@@ -24,7 +24,9 @@ def extract_pdf(path: Path) -> PDFDoc:
     texts: list[str] = []
     for page in reader.pages:
         try:
-            text = page.extract_text() or ""
+            # extract_text() only extracts text, not images/graphics
+            # Images would be accessed via page.images separately
+            text = page.extract_text(extraction_mode="plain") or ""
         except Exception:
             text = ""
         texts.append(text.strip())

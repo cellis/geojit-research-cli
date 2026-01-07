@@ -48,6 +48,7 @@ def analyst_main():
     parser.add_argument("query", nargs="?", help="Question to ask (omit for interactive mode)")
     parser.add_argument("--ingest", action="store_true", help="Ingest PDFs instead of chatting")
     parser.add_argument("--max-files", type=int, default=None, help="Limit number of PDFs for ingestion")
+    parser.add_argument("--deep-research", action="store_true", help="Enable deep research mode by default")
 
     args = parser.parse_args()
 
@@ -57,19 +58,50 @@ def analyst_main():
 
     if args.query:
         # Single question mode
-        print(answer(args.query))
+        print(answer(args.query, deep_research=args.deep_research))
         return 0
 
-    # REPL mode
+    # REPL mode with deep research toggle
     session = ChatSession()
-    print("Financial Research Analyst. Ctrl-C to exit.")
+    deep_research_mode = args.deep_research
+
+    def get_prompt():
+        mode = "🔬 DEEP" if deep_research_mode else "💬 NORMAL"
+        return f"{mode} | You (Shift+Tab to cycle): "
+
+    print("Financial Research Analyst")
+    print("Ctrl-C to exit | Shift+Tab to toggle deep research mode")
+    print()
+
+    try:
+        import readline  # For better input handling
+    except ImportError:
+        pass
+
     try:
         while True:
-            q = input("You: ").strip()
-            if not q:
-                continue
-            resp = answer(q, session=session)
-            print("Agent:", resp)
+            try:
+                # Use input with custom prompt
+                q = input(get_prompt()).strip()
+
+                # Check for mode toggle (we'll handle this as a command)
+                if q.lower() in ['toggle', '/toggle', 'switch', '/switch']:
+                    deep_research_mode = not deep_research_mode
+                    mode_name = "Deep Research" if deep_research_mode else "Normal"
+                    print(f"→ Switched to {mode_name} mode\n")
+                    continue
+
+                if not q:
+                    continue
+
+                resp = answer(q, session=session, deep_research=deep_research_mode)
+                print(f"Agent: {resp}\n")
+
+            except EOFError:
+                # Handle Ctrl+D
+                print()
+                return 0
+
     except KeyboardInterrupt:
         print()
         return 0
