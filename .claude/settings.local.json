@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run:*)",
+      "Bash(uv pip:*)",
+      "Bash(analyst \"what are the sales for Bata India Ltd. in Q4FY24\")",
+      "Bash(uv tool install:*)",
+      "Bash(analyst \"what companies are covered in the research database?\")",
+      "Bash(analyst \"what is the revenue for Sun Pharma in Q4?\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

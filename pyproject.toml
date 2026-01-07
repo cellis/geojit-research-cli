@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geojit-research-cli"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ai-sdk-python>=0.1.0",
+    "qdrant-client>=1.9.0",
+    "psycopg[binary]>=3.1.0",
+    "pypdf>=5.0.0",
+    "python-dotenv>=1.0.1",
+    "tqdm>=4.66.0",
+    "numpy>=1.26.0",
+    "tenacity>=8.2.0",
+]
+
+[project.scripts]
+analyst = "main:analyst_main"
+
+[tool.setuptools]
+packages = ["geojit"]
+py-modules = ["main"]

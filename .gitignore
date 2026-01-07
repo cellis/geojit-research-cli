@@ -1,0 +1,5 @@
+sdk/
+__pycache__/
+.env
+Financial_Research_Agent_Files/
+*.egg-info
