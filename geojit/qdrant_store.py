@@ -21,7 +21,9 @@ def ensure_collection(client: QdrantClient, name: str, vector_size: int) -> None
     except Exception:
         client.create_collection(
             collection_name=name,
-            vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE),
+            vectors_config={
+                "geojit-dense-vector": VectorParams(size=vector_size, distance=Distance.COSINE)
+            },
         )
 
 

@@ -1,0 +1,19 @@
+[2026-01-07 18:21:10] generate_text/tool registration failed
+Context: model='gpt-5'
+Exception: RuntimeError: Tool calling exceeded maxSteps=8 without completion.
+Traceback:
+Traceback (most recent call last):
+  File "/Users/cameronellis/work/geojit-research-cli/geojit/chat.py", line 401, in answer
+    resp = generate_text(model=model, messages=messages, tools=registered_tools)
+  File "/Users/cameronellis/.local/share/uv/tools/geojit-research-cli/lib/python3.13/site-packages/ai_sdk/generate_text.py", line 326, in generate_text
+    raise RuntimeError(
+        f"Tool calling exceeded maxSteps={max_steps} without completion."
+    )
+RuntimeError: Tool calling exceeded maxSteps=8 without completion.
+
+[2026-01-07 18:21:10] analyst repl error
+Context: query='What company made the most overall revenue in 2020?'
+Exception: RuntimeError: Tool calling exceeded maxSteps=8 without completion.
+Traceback:
+NoneType: None
+

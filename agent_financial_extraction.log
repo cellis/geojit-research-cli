@@ -1,0 +1,6 @@
+2026-01-07 19:32:49,747 | INFO | Processing SP20241406115209223TTK.pdf
+2026-01-07 19:32:49,799 | INFO | Detected sections: {'profit_loss_quarterly': '2-2', 'ratios': '3-4'}
+2026-01-07 19:32:49,799 | INFO | Found eval CSVs: ['SP20241406115209223TTK - quarterly_profit_loss.csv', 'SP20241406115209223TTK - balance_sheet.csv', 'SP20241406115209223TTK - change_in_estimates.csv', 'SP20241406115209223TTK - profit_loss.csv']
+2026-01-07 19:32:49,799 | INFO | Starting text strategy …
+2026-01-07 19:36:51,985 | WARNING | Text strategy failed: Operation timed out after 180s
+2026-01-07 19:36:51,986 | INFO | Starting vision strategy (dpi=150) …

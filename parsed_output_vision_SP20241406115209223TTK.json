@@ -1,0 +1,156 @@
+{
+  "company_name": "TTK Prestige Ltd.",
+  "sector": "Consumer Durables",
+  "industry": "Kitchen Appliances",
+  "profit_loss_quarterly": [
+    {
+      "period": "Q4FY24",
+      "quarter": 4,
+      "fiscal_year": 2024,
+      "sales": 623,
+      "revenue": 623,
+      "ebitda": 77,
+      "ebitda_margin_pct": 12.4,
+      "depreciation": 17,
+      "ebit": 61,
+      "interest": 5,
+      "other_income": 19,
+      "exceptional_items": 0,
+      "pbt": 75,
+      "tax": 17,
+      "reported_pat": 57,
+      "adj_pat": 57,
+      "eps": 4.1,
+      "adj_eps": 4.1,
+      "shares_outstanding": 13.9,
+      "revenue_yoy_growth_pct": 1.9,
+      "revenue_qoq_growth_pct": -15.7,
+      "ebitda_yoy_growth_pct": -3.8,
+      "ebitda_qoq_growth_pct": -9.3
+    }
+  ],
+  "profit_loss": [
+    {
+      "fiscal_year": "FY24",
+      "revenue": 2678,
+      "sales": 2678,
+      "ebitda": 304,
+      "ebitda_margin_pct": 11.3,
+      "depreciation": 64,
+      "ebit": 239,
+      "interest": 13,
+      "other_income": 75,
+      "pbt": 301,
+      "tax": 76,
+      "tax_rate": 25.2,
+      "reported_pat": 225,
+      "adj_pat": 225,
+      "eps": 16.3,
+      "adj_eps": 16.3,
+      "shares_outstanding": 13.9,
+      "revenue_growth_pct": -3.6,
+      "ebitda_growth_pct": -14.8,
+      "pat_growth_pct": -10.8
+    }
+  ],
+  "balance_sheet": [
+    {
+      "fiscal_year": "FY24",
+      "cash": 76,
+      "accounts_receivable": 367,
+      "inventories": null,
+      "other_current_assets": null,
+      "investments": null,
+      "gross_fixed_assets": 985,
+      "net_fixed_assets": 556,
+      "cwip": 33,
+      "intangible_assets": 164,
+      "total_assets": 2797,
+      "accounts_payable": null,
+      "short_term_debt": null,
+      "long_term_debt": 137,
+      "total_liabilities": 2797,
+      "share_capital": 14,
+      "reserves": 2101,
+      "total_equity": 2119,
+      "working_capital": null,
+      "net_debt": 61
+    }
+  ],
+  "change_in_estimate": [
+    {
+      "fiscal_year": "FY25E",
+      "old_revenue": 3263,
+      "new_revenue": 2904,
+      "old_ebitda": 465,
+      "new_ebitda": 355,
+      "old_ebitda_margin_pct": 14.3,
+      "new_ebitda_margin_pct": 12.2,
+      "old_adj_pat": 344,
+      "new_adj_pat": 258,
+      "old_eps": 24.8,
+      "new_eps": 18.6,
+      "revenue_change_pct": -11.0,
+      "ebitda_change_pct": -23.6,
+      "pat_change_pct": -25.1,
+      "eps_change_pct": -25.1
+    }
+  ],
+  "ratios": [
+    {
+      "fiscal_year": "FY24",
+      "roe": 11.1,
+      "roa": null,
+      "roce": 8.2,
+      "current_ratio": 3.2,
+      "quick_ratio": 0.8,
+      "debt_to_equity": 0.1,
+      "interest_coverage": 19.3,
+      "pe_ratio": 46.2,
+      "pb_ratio": 4.9
+    }
+  ],
+  "cash_flow": [
+    {
+      "fiscal_year": "FY24",
+      "operating_cash_flow": 252,
+      "investing_cash_flow": -195,
+      "capex": -101,
+      "financing_cash_flow": -14,
+      "free_cash_flow": 151
+    }
+  ],
+  "shareholding_percentage": [
+    {
+      "as_of_date": "2023-09-30",
+      "promoter_holding_pct": 70.4,
+      "public_holding_pct": 7.5,
+      "institutional_holding_pct": 21.4,
+      "fii_holding_pct": 8.0,
+      "dii_holding_pct": 13.4,
+      "retail_holding_pct": 7.5,
+      "pledged_shares_pct": 0.0
+    },
+    {
+      "as_of_date": "2023-12-31",
+      "promoter_holding_pct": 70.4,
+      "public_holding_pct": 7.6,
+      "institutional_holding_pct": 21.3,
+      "fii_holding_pct": 6.7,
+      "dii_holding_pct": 14.6,
+      "retail_holding_pct": 7.6,
+      "pledged_shares_pct": 0.0
+    },
+    {
+      "as_of_date": "2024-03-31",
+      "promoter_holding_pct": 70.4,
+      "public_holding_pct": 7.5,
+      "institutional_holding_pct": 21.5,
+      "fii_holding_pct": 6.8,
+      "dii_holding_pct": 14.7,
+      "retail_holding_pct": 7.5,
+      "pledged_shares_pct": 0.0
+    }
+  ],
+  "price_performance": []
+}

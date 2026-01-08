@@ -1,0 +1,300 @@
+Pipeline Evaluation Results
+Started: 2026-01-07 18:23:35
+PDF: Financial_Research_Agent_Files/SP20241406115209223TTK.pdf
+CSVs: SP20241406115209223TTK - balance_sheet.csv, SP20241406115209223TTK - change_in_estimates.csv, SP20241406115209223TTK - profit_loss.csv, SP20241406115209223TTK - quarterly_profit_loss.csv
+================================================================================
+
+================================================================================
+Pipeline: ingest.py (text-based)
+Timestamp: 2026-01-07 18:25:40
+Success: True
+================================================================================
+
+
+Key Metrics:
+
+Full Output:
+[TEXT PARSER] Extracting text from Financial_Research_Agent_Files/SP20241406115209223TTK.pdf
+[TEXT PARSER] Extracted 4 pages
+[TEXT PARSER] Parsing with LLM...
+[TEXT PARSER] Parsing complete
+
+================================================================================
+PDF PARSER EVALUATION REPORT
+================================================================================
+
+Total Comparisons: 167
+Matches: 154
+Mismatches: 13
+Accuracy: 92.22%
+
+────────────────────────────────────────────────────────────────────────────────
+MISMATCHES (showing first 20):
+────────────────────────────────────────────────────────────────────────────────
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Cash (cash)
+Period: FY23A|
+Parsed:   None
+Expected: 33.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Accounts Receivable (accounts_receivable)
+Period: FY23A|
+Parsed:   None
+Expected: 370.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Inventories (inventories)
+Period: FY23A|
+Parsed:   None
+Expected: 593.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Other Cur. Assets (other_current_assets)
+Period: FY23A|
+Parsed:   None
+Expected: 654.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Investments (investments)
+Period: FY23A|
+Parsed:   None
+Expected: 249.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Gross Fixed Assets (gross_fixed_assets)
+Period: FY23A|
+Parsed:   None
+Expected: 784.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Net Fixed Assets (net_fixed_assets)
+Period: FY23A|
+Parsed:   None
+Expected: 519.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: CWIP (cwip)
+Period: FY23A|
+Parsed:   None
+Expected: 10.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Intangible Assets (intangible_assets)
+Period: FY23A|
+Parsed:   None
+Expected: 164.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - quarterly_profit_loss
+Metric: Exceptional Items (exceptional_items)
+Period: FY24
+Parsed:   None
+Expected: 0.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - quarterly_profit_loss
+Metric: Exceptional Items (exceptional_items)
+Period: FY23
+Parsed:   None
+Expected: 0.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - quarterly_profit_loss
+Metric: No. of Shares (shares_outstanding)
+Period: FY24
+Parsed:   13.9
+Expected: 12.0
+Reason:   outside_tolerance
+Diff:     15.83%
+
+CSV: SP20241406115209223TTK - quarterly_profit_loss
+Metric: No. of Shares (shares_outstanding)
+Period: FY23
+Parsed:   13.9
+Expected: 12.0
+Reason:   outside_tolerance
+Diff:     15.83%
+
+================================================================================
+
+
+
+
+================================================================================
+Pipeline: ingest_zerox.py (zerox/GPT fallback)
+Timestamp: 2026-01-07 18:28:15
+Success: True
+================================================================================
+
+
+Key Metrics:
+
+Full Output:
+
+================================================================================
+PDF PARSER EVALUATION REPORT
+================================================================================
+
+Total Comparisons: 167
+Matches: 8
+Mismatches: 159
+Accuracy: 4.79%
+
+────────────────────────────────────────────────────────────────────────────────
+MISMATCHES (showing first 20):
+────────────────────────────────────────────────────────────────────────────────
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Cash (cash)
+Period: FY21A
+Parsed:   None
+Expected: 76.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Cash (cash)
+Period: FY22A
+Parsed:   None
+Expected: 58.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Cash (cash)
+Period: FY23A|
+Parsed:   None
+Expected: 33.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Cash (cash)
+Period: FY24
+Parsed:   None
+Expected: 76.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Cash (cash)
+Period: FY25E
+Parsed:   None
+Expected: 61.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Cash (cash)
+Period: FY26E
+Parsed:   None
+Expected: 59.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Accounts Receivable (accounts_receivable)
+Period: FY21A
+Parsed:   None
+Expected: 327.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Accounts Receivable (accounts_receivable)
+Period: FY22A
+Parsed:   None
+Expected: 367.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Accounts Receivable (accounts_receivable)
+Period: FY23A|
+Parsed:   None
+Expected: 370.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Accounts Receivable (accounts_receivable)
+Period: FY24
+Parsed:   None
+Expected: 367.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Accounts Receivable (accounts_receivable)
+Period: FY25E
+Parsed:   None
+Expected: 390.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Accounts Receivable (accounts_receivable)
+Period: FY26E
+Parsed:   None
+Expected: 415.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Inventories (inventories)
+Period: FY21A
+Parsed:   None
+Expected: 448.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Inventories (inventories)
+Period: FY22A
+Parsed:   None
+Expected: 586.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Inventories (inventories)
+Period: FY23A|
+Parsed:   None
+Expected: 593.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Inventories (inventories)
+Period: FY24
+Parsed:   None
+Expected: 552.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Inventories (inventories)
+Period: FY25E
+Parsed:   None
+Expected: 598.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Inventories (inventories)
+Period: FY26E
+Parsed:   None
+Expected: 666.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Other Cur. Assets (other_current_assets)
+Period: FY21A
+Parsed:   None
+Expected: 161.0
+Reason:   parsed_is_null
+
+CSV: SP20241406115209223TTK - balance_sheet
+Metric: Other Cur. Assets (other_current_assets)
+Period: FY22A
+Parsed:   None
+Expected: 425.0
+Reason:   parsed_is_null
+
+================================================================================
+
+
+

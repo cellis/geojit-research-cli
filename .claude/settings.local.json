@@ -10,7 +10,19 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(analyst:*)",
-      "Bash(psql:*)"
+      "Bash(psql:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd deep research capabilities and intelligent metadata extraction\n\nMajor Features:\n- Deep research mode with Python/SQL execution (119s timeout)\n- LLM-powered metadata extraction for companies and financial metrics\n- Database schema for structured financial data (companies, metrics)\n- Date/time grounding for temporal query understanding\n- Interactive mode with deep research toggle (toggle/switch command)\n\nDatabase Changes:\n- Add companies table (name, sector, industry)\n- Add financial_metrics table (revenue, profit, EBITDA, etc.)\n- Add indexes for efficient querying\n\nAgent Enhancements:\n- Coding agent can write and execute Python scripts\n- SQL query execution against PostgreSQL database\n- Context-aware deep research triggers (keywords: \"deep research\", \"think hard\")\n- Current date/time provided in system prompts\n\nPDF Processing:\n- Update parser to skip graphics/images (text-only extraction)\n- Extract company metadata during ingestion\n- Store structured financial metrics automatically\n\nCLI Improvements:\n- Add --deep-research flag for analyst command\n- Interactive mode shows 🔬 DEEP or 💬 NORMAL indicator\n- Type ''toggle'' or ''/toggle'' to switch modes\n- Help text: \"Shift+Tab to toggle deep research mode\"\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(python test:*)",
+      "Bash(python:*)",
+      "Bash(timeout 120 uv run:*)",
+      "Bash(tee:*)",
+      "Read(//private/tmp/**)",
+      "Read(//tmp/**)",
+      "Bash(cat:*)",
+      "Bash(echo \"Current OPENAI_API_KEY env var starts with: $OPENAI_API_KEY:0:8\")",
+      "Bash(chmod:*)",
+      "Bash(pip install:*)",
+      "Bash(source:*)"
     ],
     "deny": [],
     "ask": []

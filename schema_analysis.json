@@ -1,0 +1,123 @@
+{
+  "companies": [
+    {
+      "name": "Hindalco Industries Ltd.",
+      "sector": "Metals & Mining",
+      "industry": null
+    },
+    {
+      "name": "Grasim Industries Limited",
+      "sector": "Construction Materials",
+      "industry": null
+    }
+  ],
+  "fields": {
+    "profit_loss_quarterly": [
+      "adj_eps",
+      "adj_pat",
+      "depreciation",
+      "ebit",
+      "ebitda",
+      "ebitda_margin_pct",
+      "ebitda_qoq_growth_pct",
+      "ebitda_yoy_growth_pct",
+      "eps",
+      "exceptional_items",
+      "fiscal_year",
+      "interest",
+      "other_income",
+      "pbt",
+      "period",
+      "quarter",
+      "reported_pat",
+      "revenue",
+      "revenue_qoq_growth_pct",
+      "revenue_yoy_growth_pct",
+      "sales",
+      "shares_outstanding",
+      "tax"
+    ],
+    "profit_loss": [
+      "adj_eps",
+      "adj_pat",
+      "depreciation",
+      "ebit",
+      "ebitda",
+      "ebitda_growth_pct",
+      "ebitda_margin_pct",
+      "eps",
+      "fiscal_year",
+      "interest",
+      "other_income",
+      "pat_growth_pct",
+      "pbt",
+      "reported_pat",
+      "revenue",
+      "revenue_growth_pct",
+      "sales",
+      "shares_outstanding",
+      "tax",
+      "tax_rate"
+    ],
+    "balance_sheet": [
+      "accounts_payable",
+      "accounts_receivable",
+      "cash",
+      "cwip",
+      "fiscal_year",
+      "gross_fixed_assets",
+      "intangible_assets",
+      "inventories",
+      "investments",
+      "long_term_debt",
+      "net_debt",
+      "net_fixed_assets",
+      "other_current_assets",
+      "reserves",
+      "share_capital",
+      "short_term_debt",
+      "total_assets",
+      "total_equity",
+      "total_liabilities",
+      "working_capital"
+    ],
+    "change_in_estimate": [
+      "ebitda_change_pct",
+      "eps_change_pct",
+      "fiscal_year",
+      "new_adj_pat",
+      "new_ebitda",
+      "new_ebitda_margin_pct",
+      "new_eps",
+      "new_revenue",
+      "old_adj_pat",
+      "old_ebitda",
+      "old_ebitda_margin_pct",
+      "old_eps",
+      "old_revenue",
+      "pat_change_pct",
+      "revenue_change_pct"
+    ],
+    "ratios": [
+      "current_ratio",
+      "debt_to_equity",
+      "fiscal_year",
+      "interest_coverage",
+      "pb_ratio",
+      "pe_ratio",
+      "quick_ratio",
+      "roa",
+      "roce",
+      "roe"
+    ],
+    "cash_flow": [
+      "capex",
+      "financing_cash_flow",
+      "fiscal_year",
+      "free_cash_flow",
+      "investing_cash_flow",
+      "operating_cash_flow"
+    ]
+  },
+  "total_pdfs_analyzed": 2
+}

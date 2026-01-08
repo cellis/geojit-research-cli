@@ -1,0 +1,1732 @@
+{
+  "total_comparisons": 167,
+  "matches": 35,
+  "mismatches": 132,
+  "accuracy": 20.958083832335326,
+  "details": [
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Cash",
+      "field": "cash",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 76.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 76.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Cash",
+      "field": "cash",
+      "period": "FY22A",
+      "parsed": null,
+      "expected": 58.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 58.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Cash",
+      "field": "cash",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 33.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 33.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Cash",
+      "field": "cash",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 61.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 61.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Cash",
+      "field": "cash",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 59.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 59.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Accounts Receivable",
+      "field": "accounts_receivable",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 327.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 327.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Accounts Receivable",
+      "field": "accounts_receivable",
+      "period": "FY22A",
+      "parsed": null,
+      "expected": 367.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 367.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Accounts Receivable",
+      "field": "accounts_receivable",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 370.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 370.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Accounts Receivable",
+      "field": "accounts_receivable",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 390.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 390.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Accounts Receivable",
+      "field": "accounts_receivable",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 415.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 415.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Inventories",
+      "field": "inventories",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 448.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 448.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Inventories",
+      "field": "inventories",
+      "period": "FY22A",
+      "parsed": null,
+      "expected": 586.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 586.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Inventories",
+      "field": "inventories",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 593.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 593.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Inventories",
+      "field": "inventories",
+      "period": "FY24",
+      "parsed": null,
+      "expected": 552.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 552.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Inventories",
+      "field": "inventories",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 598.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 598.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Inventories",
+      "field": "inventories",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 666.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 666.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Other Cur. Assets",
+      "field": "other_current_assets",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 161.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 161.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Other Cur. Assets",
+      "field": "other_current_assets",
+      "period": "FY22A",
+      "parsed": null,
+      "expected": 425.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 425.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Other Cur. Assets",
+      "field": "other_current_assets",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 654.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 654.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Other Cur. Assets",
+      "field": "other_current_assets",
+      "period": "FY24",
+      "parsed": null,
+      "expected": 633.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 633.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Other Cur. Assets",
+      "field": "other_current_assets",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 635.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 635.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Other Cur. Assets",
+      "field": "other_current_assets",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 642.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 642.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Investments",
+      "field": "investments",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 420.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 420.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Investments",
+      "field": "investments",
+      "period": "FY22A",
+      "parsed": null,
+      "expected": 356.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 356.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Investments",
+      "field": "investments",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 249.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 249.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Investments",
+      "field": "investments",
+      "period": "FY24",
+      "parsed": null,
+      "expected": 343.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 343.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Investments",
+      "field": "investments",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 493.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 493.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Investments",
+      "field": "investments",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 668.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 668.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Gross Fixed Assets",
+      "field": "gross_fixed_assets",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 609.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 609.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Gross Fixed Assets",
+      "field": "gross_fixed_assets",
+      "period": "FY22A",
+      "parsed": null,
+      "expected": 675.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 675.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Gross Fixed Assets",
+      "field": "gross_fixed_assets",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 784.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 784.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Gross Fixed Assets",
+      "field": "gross_fixed_assets",
+      "period": "FY24",
+      "parsed": 985,
+      "expected": 885.0,
+      "comparison": {
+        "match": false,
+        "reason": "outside_tolerance",
+        "parsed": 985,
+        "expected": 885.0,
+        "pct_diff": 11.299435028248588
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Gross Fixed Assets",
+      "field": "gross_fixed_assets",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 955.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 955.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Gross Fixed Assets",
+      "field": "gross_fixed_assets",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 1025.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 1025.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Net Fixed Assets",
+      "field": "net_fixed_assets",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 441.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 441.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Net Fixed Assets",
+      "field": "net_fixed_assets",
+      "period": "FY22A",
+      "parsed": null,
+      "expected": 462.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 462.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Net Fixed Assets",
+      "field": "net_fixed_assets",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 519.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 519.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Net Fixed Assets",
+      "field": "net_fixed_assets",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 555.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 555.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Net Fixed Assets",
+      "field": "net_fixed_assets",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 551.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 551.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "CWIP",
+      "field": "cwip",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 18.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 18.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "CWIP",
+      "field": "cwip",
+      "period": "FY22A",
+      "parsed": null,
+      "expected": 7.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 7.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "CWIP",
+      "field": "cwip",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 10.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 10.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "CWIP",
+      "field": "cwip",
+      "period": "FY24",
+      "parsed": 33,
+      "expected": 10.0,
+      "comparison": {
+        "match": false,
+        "reason": "outside_tolerance",
+        "parsed": 33,
+        "expected": 10.0,
+        "pct_diff": 229.99999999999997
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "CWIP",
+      "field": "cwip",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 10.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 10.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "CWIP",
+      "field": "cwip",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 10.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 10.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Intangible Assets",
+      "field": "intangible_assets",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 132.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 132.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Intangible Assets",
+      "field": "intangible_assets",
+      "period": "FY22A",
+      "parsed": null,
+      "expected": 135.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 135.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Intangible Assets",
+      "field": "intangible_assets",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 164.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 164.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Intangible Assets",
+      "field": "intangible_assets",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 164.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 164.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Intangible Assets",
+      "field": "intangible_assets",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 164.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 164.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Revenue",
+      "field": "revenue",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 2194.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 2194.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Revenue",
+      "field": "revenue",
+      "period": "FYZZA",
+      "parsed": null,
+      "expected": 2722.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 2722.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Revenue",
+      "field": "revenue",
+      "period": "FY23A",
+      "parsed": null,
+      "expected": 2777.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 2777.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Revenue",
+      "field": "revenue",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 2904.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 2904.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Revenue",
+      "field": "revenue",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 3153.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 3153.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "EBITDA",
+      "field": "ebitda",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 321.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 321.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "EBITDA",
+      "field": "ebitda",
+      "period": "FYZZA",
+      "parsed": null,
+      "expected": 426.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 426.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "EBITDA",
+      "field": "ebitda",
+      "period": "FY23A",
+      "parsed": null,
+      "expected": 359.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 359.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "EBITDA",
+      "field": "ebitda",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 355.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 355.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "EBITDA",
+      "field": "ebitda",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 412.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 412.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Depreciation",
+      "field": "depreciation",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 40.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 40.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Depreciation",
+      "field": "depreciation",
+      "period": "FYZZA",
+      "parsed": null,
+      "expected": 44.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 44.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Depreciation",
+      "field": "depreciation",
+      "period": "FY23A",
+      "parsed": null,
+      "expected": 53.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 53.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Depreciation",
+      "field": "depreciation",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 70.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 70.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Depreciation",
+      "field": "depreciation",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 74.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 74.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "EBIT",
+      "field": "ebit",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 281.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 281.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "EBIT",
+      "field": "ebit",
+      "period": "FYZZA",
+      "parsed": null,
+      "expected": 382.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 382.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "EBIT",
+      "field": "ebit",
+      "period": "FY23A",
+      "parsed": null,
+      "expected": 305.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 305.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "EBIT",
+      "field": "ebit",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 285.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 285.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "EBIT",
+      "field": "ebit",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 338.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 338.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Interest",
+      "field": "interest",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 5.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 5.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Interest",
+      "field": "interest",
+      "period": "FYZZA",
+      "parsed": null,
+      "expected": 6.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 6.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Interest",
+      "field": "interest",
+      "period": "FY23A",
+      "parsed": null,
+      "expected": 8.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 8.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Interest",
+      "field": "interest",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 12.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 12.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Interest",
+      "field": "interest",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 11.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 11.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Other Income",
+      "field": "other_income",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 29.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 29.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Other Income",
+      "field": "other_income",
+      "period": "FYZZA",
+      "parsed": null,
+      "expected": 35.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 35.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Other Income",
+      "field": "other_income",
+      "period": "FY23A",
+      "parsed": null,
+      "expected": 46.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 46.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Other Income",
+      "field": "other_income",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 73.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 73.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Other Income",
+      "field": "other_income",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 85.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 85.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "PBT",
+      "field": "pbt",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 305.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 305.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "PBT",
+      "field": "pbt",
+      "period": "FYZZA",
+      "parsed": null,
+      "expected": 411.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 411.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "PBT",
+      "field": "pbt",
+      "period": "FY23A",
+      "parsed": null,
+      "expected": 343.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 343.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "PBT",
+      "field": "pbt",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 346.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 346.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "PBT",
+      "field": "pbt",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 412.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 412.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Tax",
+      "field": "tax",
+      "period": "FY21A",
+      "parsed": null,
+      "expected": 81.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 81.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Tax",
+      "field": "tax",
+      "period": "FYZZA",
+      "parsed": null,
+      "expected": 105.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 105.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Tax",
+      "field": "tax",
+      "period": "FY23A",
+      "parsed": null,
+      "expected": 88.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 88.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Tax",
+      "field": "tax",
+      "period": "FY25E",
+      "parsed": null,
+      "expected": 88.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 88.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - profit_loss",
+      "metric": "Tax",
+      "field": "tax",
+      "period": "FY26E",
+      "parsed": null,
+      "expected": 106.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 106.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Sales",
+      "field": "sales",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 611.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 611.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Sales",
+      "field": "sales",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 738.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 738.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "EBITDA",
+      "field": "ebitda",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 80.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 80.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "EBITDA",
+      "field": "ebitda",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 85.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 85.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "EBITDA margins",
+      "field": "ebitda_margin_pct",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 13.1,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 13.1
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "EBITDA margins",
+      "field": "ebitda_margin_pct",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 11.5,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 11.5
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Depreciation",
+      "field": "depreciation",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 16.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 16.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Depreciation",
+      "field": "depreciation",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 17.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 17.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "EBIT",
+      "field": "ebit",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 64.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 64.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "EBIT",
+      "field": "ebit",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 68.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 68.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Interest",
+      "field": "interest",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 3.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 3.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Interest",
+      "field": "interest",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 3.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 3.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Other Income",
+      "field": "other_income",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 17.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 17.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Other Income",
+      "field": "other_income",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 18.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 18.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "PBT",
+      "field": "pbt",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 78.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 78.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "PBT",
+      "field": "pbt",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 83.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 83.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Tax",
+      "field": "tax",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 21.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 21.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Reported PAT",
+      "field": "reported_pat",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 58.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 58.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Reported PAT",
+      "field": "reported_pat",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 62.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 62.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Adj PAT",
+      "field": "adj_pat",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 58.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 58.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Adj PAT",
+      "field": "adj_pat",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 62.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 62.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "No. of Shares",
+      "field": "shares_outstanding",
+      "period": "Q4FY24",
+      "parsed": 13.9,
+      "expected": 12.0,
+      "comparison": {
+        "match": false,
+        "reason": "outside_tolerance",
+        "parsed": 13.9,
+        "expected": 12.0,
+        "pct_diff": 15.833333333333336
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "No. of Shares",
+      "field": "shares_outstanding",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 12.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 12.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "No. of Shares",
+      "field": "shares_outstanding",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 12.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 12.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Adj EPS (Rs)",
+      "field": "adj_eps",
+      "period": "Q4FY23",
+      "parsed": null,
+      "expected": 4.2,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 4.2
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Adj EPS (Rs)",
+      "field": "adj_eps",
+      "period": "Q3FY24",
+      "parsed": null,
+      "expected": 4.4,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 4.4
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Sales",
+      "field": "sales",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 2777.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 2777.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "EBITDA",
+      "field": "ebitda",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 356.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 356.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "EBITDA margins",
+      "field": "ebitda_margin_pct",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 12.8,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 12.8
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Depreciation",
+      "field": "depreciation",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 53.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 53.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "EBIT",
+      "field": "ebit",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 303.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 303.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Interest",
+      "field": "interest",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 8.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 8.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Other Income",
+      "field": "other_income",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 46.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 46.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Exceptional Items",
+      "field": "exceptional_items",
+      "period": "FY24",
+      "parsed": null,
+      "expected": 0.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 0.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Exceptional Items",
+      "field": "exceptional_items",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 0.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 0.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "PBT",
+      "field": "pbt",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 341.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 341.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Tax",
+      "field": "tax",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 88.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 88.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Reported PAT",
+      "field": "reported_pat",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 253.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 253.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Adj PAT",
+      "field": "adj_pat",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 253.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 253.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "No. of Shares",
+      "field": "shares_outstanding",
+      "period": "FY24",
+      "parsed": 13.9,
+      "expected": 12.0,
+      "comparison": {
+        "match": false,
+        "reason": "outside_tolerance",
+        "parsed": 13.9,
+        "expected": 12.0,
+        "pct_diff": 15.833333333333336
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "No. of Shares",
+      "field": "shares_outstanding",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 12.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 12.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Adj EPS (Rs)",
+      "field": "adj_eps",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 18.2,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 18.2
+      }
+    }
+  ]
+}

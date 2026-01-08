@@ -1,0 +1,6 @@
+{"event": "process_start", "file": "Financial_Research_Agent_Files/SP20241406115209223TTK.pdf"}
+{"event": "sections_detected", "sections": {"profit_loss_quarterly": "2-2", "ratios": "3-4"}}
+{"event": "eval_csvs", "files": ["/Users/cameronellis/work/geojit-research-cli/SP20241406115209223TTK - quarterly_profit_loss.csv", "/Users/cameronellis/work/geojit-research-cli/SP20241406115209223TTK - balance_sheet.csv", "/Users/cameronellis/work/geojit-research-cli/SP20241406115209223TTK - change_in_estimates.csv", "/Users/cameronellis/work/geojit-research-cli/SP20241406115209223TTK - profit_loss.csv"]}
+{"event": "strategy_start", "name": "text_full"}
+{"event": "strategy_done", "name": "text_full", "ok": false, "error": "Operation timed out after 180s"}
+{"event": "strategy_start", "name": "vision_full", "dpi": 150}

@@ -1,0 +1,60 @@
+{
+  "company_name": "TTK Prestige Ltd.",
+  "sector": "Kitchen Appliances",
+  "industry": null,
+  "profit_loss_quarterly": [],
+  "profit_loss": [
+    {
+      "fiscal_year": "FY24",
+      "revenue": 2678,
+      "sales": 2678,
+      "ebitda": 304,
+      "ebitda_margin_pct": 11.3,
+      "depreciation": null,
+      "ebit": null,
+      "interest": null,
+      "other_income": null,
+      "pbt": null,
+      "tax": null,
+      "tax_rate": null,
+      "reported_pat": 225,
+      "adj_pat": 225,
+      "eps": 16.4,
+      "adj_eps": 16.4,
+      "shares_outstanding": null,
+      "revenue_growth_pct": -11.6,
+      "ebitda_growth_pct": -14.3,
+      "pat_growth_pct": -11.6
+    }
+  ],
+  "balance_sheet": [],
+  "change_in_estimate": [],
+  "ratios": [
+    {
+      "fiscal_year": "FY24",
+      "roe": 11.1,
+      "roa": null,
+      "roce": null,
+      "current_ratio": null,
+      "quick_ratio": null,
+      "debt_to_equity": null,
+      "interest_coverage": null,
+      "pe_ratio": 46.2,
+      "pb_ratio": 4.9
+    }
+  ],
+  "cash_flow": [],
+  "shareholding_percentage": [
+    {
+      "as_of_date": "2024-06-14",
+      "promoter_holding_pct": 70.4,
+      "public_holding_pct": 7.5,
+      "institutional_holding_pct": 13.4,
+      "fii_holding_pct": 8,
+      "dii_holding_pct": 5.4,
+      "retail_holding_pct": null,
+      "pledged_shares_pct": null
+    }
+  ],
+  "price_performance": []
+}

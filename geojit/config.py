@@ -44,12 +44,10 @@ def load_settings() -> Settings:
     cwd = Path.cwd()
     data_dir = Path(os.getenv("GEOJIT_DATA_DIR", cwd / "Financial_Research_Agent_Files")).expanduser()
 
-    # OpenAI key can come from env or .env file with a raw key
-    openai_api_key = os.getenv("OPENAI_API_KEY")
-    if not openai_api_key:
-        env_key = _load_env_key(cwd / ".env")
-        openai_api_key = env_key or None
-
+    # OpenAI key: prioritize .env file over environment variable
+    env_key = _load_env_key(cwd / ".env")
+    openai_api_key = env_key or os.getenv("OPENAI_API_KEY")
+    
     return Settings(
         data_dir=data_dir,
         qdrant_collection=os.getenv("QDRANT_COLLECTION", "geojit"),

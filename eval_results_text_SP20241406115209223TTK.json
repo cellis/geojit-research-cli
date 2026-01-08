@@ -1,0 +1,181 @@
+{
+  "total_comparisons": 167,
+  "matches": 154,
+  "mismatches": 13,
+  "accuracy": 92.21556886227546,
+  "details": [
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Cash",
+      "field": "cash",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 33.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 33.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Accounts Receivable",
+      "field": "accounts_receivable",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 370.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 370.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Inventories",
+      "field": "inventories",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 593.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 593.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Other Cur. Assets",
+      "field": "other_current_assets",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 654.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 654.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Investments",
+      "field": "investments",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 249.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 249.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Gross Fixed Assets",
+      "field": "gross_fixed_assets",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 784.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 784.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Net Fixed Assets",
+      "field": "net_fixed_assets",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 519.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 519.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "CWIP",
+      "field": "cwip",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 10.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 10.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - balance_sheet",
+      "metric": "Intangible Assets",
+      "field": "intangible_assets",
+      "period": "FY23A|",
+      "parsed": null,
+      "expected": 164.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 164.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Exceptional Items",
+      "field": "exceptional_items",
+      "period": "FY24",
+      "parsed": null,
+      "expected": 0.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 0.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "Exceptional Items",
+      "field": "exceptional_items",
+      "period": "FY23",
+      "parsed": null,
+      "expected": 0.0,
+      "comparison": {
+        "match": false,
+        "reason": "parsed_is_null",
+        "expected": 0.0
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "No. of Shares",
+      "field": "shares_outstanding",
+      "period": "FY24",
+      "parsed": 13.9,
+      "expected": 12.0,
+      "comparison": {
+        "match": false,
+        "reason": "outside_tolerance",
+        "parsed": 13.9,
+        "expected": 12.0,
+        "pct_diff": 15.833333333333336
+      }
+    },
+    {
+      "csv_file": "SP20241406115209223TTK - quarterly_profit_loss",
+      "metric": "No. of Shares",
+      "field": "shares_outstanding",
+      "period": "FY23",
+      "parsed": 13.9,
+      "expected": 12.0,
+      "comparison": {
+        "match": false,
+        "reason": "outside_tolerance",
+        "parsed": 13.9,
+        "expected": 12.0,
+        "pct_diff": 15.833333333333336
+      }
+    }
+  ]
+}
